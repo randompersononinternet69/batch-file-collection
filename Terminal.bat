@@ -2,8 +2,7 @@
 rem Setting the stuff up
 mode 180
 prompt $g
-if exist cmd.exe cmd else timeout 5 >nul
-ping google.com
+if exist cmd.exe cmd else echo DOS detected.
 rem Starting
 cls
 command
